@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transition is nice</title>
+        <style>
+            #this {
+                background-color: #AAAA00;
+                color: #5555FF;
+                border: 1px solid black;
+                border-radius: 0px;
+                width: 300px;
+                height: 150px;
+                box-shadow: 0px 0px 10px 1px black;
+                transform: translateX(50%);
+                transition: all 1s;
+            }  
+            #this:hover {
+                background-color: #0000FF;
+                color: #FFAA88;
+                border: 1px solid green;
+                border-radius: 0px;
+                width: 366px;
+                height: 200px;
+                box-shadow: 0px 0px 10px 1px green;
+                transform: translateX(0%);
+            }
+    </head>
+    <body>
+        <div id = "this">Hover over me</div>
+    </body>
+</html>
